@@ -1,3 +1,9 @@
+macro_chr_search_tabs: macro_chr_search_tabs{
+compatible = "zmk,behavior-macro";
+label = "macro_chr_search_tabs";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk RIGHT_SHIFT>, <&kp A>;
+};
 macro_cmd_2: macro_cmd_2{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_2";
