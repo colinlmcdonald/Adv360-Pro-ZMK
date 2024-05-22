@@ -14,31 +14,31 @@ macro_vscode_goto: macro_vscode_goto{
 compatible = "zmk,behavior-macro";
 label = "macro_vscode_goto";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_BRACKET>;
+bindings = <&sk LEFT_CONTROL>, <&kp RIGHT_BRACKET>;
 };
 macro_vscode_pane: macro_vscode_pane{
 compatible = "zmk,behavior-macro";
 label = "macro_vscode_pane";
 #binding-cells = <0>;
-bindings = <&kp K>;
+bindings = <&sk LEFT_COMMAND>, <&kp K>;
 };
 macro_devtools: macro_devtools{
 compatible = "zmk,behavior-macro";
 label = "macro_devtools";
 #binding-cells = <0>;
-bindings = <&kp J>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp J>;
 };
 macro_spotlight: macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_spotlight";
 #binding-cells = <0>;
-bindings = <&kp SPACE>;
+bindings = <&sk RIGHT_COMMAND>, <&kp SPACE>;
 };
 macro_alfred: macro_alfred{
 compatible = "zmk,behavior-macro";
 label = "macro_alfred";
 #binding-cells = <0>;
-bindings = <&kp SPACE>;
+bindings = <&sk LEFT_ALT>, <&kp SPACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
